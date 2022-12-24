@@ -5,126 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        body{
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-image: url(fundo.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-
-          
-        }
-        
-        .container{
-            display:flex;
-            justify-content: center;
-            width: 100vw;
-            margin-top: 100px;
-        }
-
-        .card{
-            background-color: rgba(255, 255, 255, 0.846);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.436);
-            min-width: 400px;
-            
-        }
-       h1{
-        text-align: center;
-        margin-bottom: 20px;
-        color: #185E6A;
-        font-weight: bolder;
-       }
-       
-       .label-float input{
-        width:100%;
-        padding: 10px;
-        outline: none;
-        font-size: 16pt;
-        display: inline-block;
-        border: 0;
-        border-bottom: 2px solid #185E6A;
-        background-color: transparent;
-        transition: all .3s ease;
-       }
-       .label-float{
-        position: relative;
-        padding-top: 13px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-       }
-
-       .label-float input:focus{
-        border-bottom: 2px solid #a77d45;
-       }
-       .label-float label{
-        color: black;
-        pointer-events:none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: all .3s ease-out;
-       }
-       .label-float input:focus + label{
-        font-size: 13px;
-        margin-top: 0px;
-        color: green;
-       }
-       button{
-        background-color:#1d6d7c;
-        border: none;
-        color: aliceblue;
-        padding: 10px;
-        font-weight: bold;
-        font-size: 14pt;
-        margin-top: 20px;
-        border-radius: 4px;
-        cursor: pointer;
-        outline: none;
-       }
-       button:hover{
-        background-color:#06272d;
-        font-weight: bold;
-        transition: all .3s ease-in-out;
-       }
-       .centralizar{
-        display: flex;
-        justify-content: center;
-       }
-       HR{
-        margin-top: 30px;
-        width: 100%;
-        border: 1px solid #a77d45;
-        margin-bottom: 10px;
-       }
-
-       p{
-        color: #06272d;
-        font-size: 14pt;
-        text-align: center;
-       }
-       a{
-        color: #a77d45;
-        font-weight: bold;
-        text-decoration: none;
-       }
-       a:hover{
-        color: #1d6d7c;
-        text-decoration: underline;
-        transition: all .4s ease-out;
-       }
-       
-
-    </style>
+    
 </head>
 <body>
+    
     <div class="container">
         <div class="card">
             <h1>Entrar</h1>
@@ -138,7 +24,8 @@
             </div>
             
             <div class="centralizar">
-                <button>Entrar</button>
+                <button onclick="msgdes()">Entrar </button>
+               
             </div>
             
             <div>
@@ -146,10 +33,19 @@
             </div>
 
             <div>
-                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                <p>Não tem uma conta? <a href="cadastrar.html">Cadastre-se</a></p>
             </div>
 
         </div>
     </div>
+
+    <script>
+
+        function msgdes(){
+        alert("teste")
+        }
+        
+
+    </script>
 </body>
 </html>
