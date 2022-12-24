@@ -25,6 +25,7 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.436);
+            width: 500px;
     
         }
        h1{
@@ -117,9 +118,8 @@
         transition: all .4s ease-out;
        }
        
-       @media only screen and (min-width:800px) and (max-width:1200px){
+       @media screen and (max-width:300px) {
         .card{
-            background-color:rgb(113, 28, 28);
-           width: 600px;
+            max-width: 100px;
         }
        }
