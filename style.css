@@ -116,3 +116,10 @@
         text-decoration: underline;
         transition: all .4s ease-out;
        }
+       
+       @media only screen and (min-width:800px) and (max-width:1200px){
+        .card{
+            background-color:rgb(113, 28, 28);
+           width: 600px;
+        }
+       }
