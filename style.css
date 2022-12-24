@@ -11,7 +11,8 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
-            min-width: 320px;
+            min-width: 100vw;
+          
 
           
         }
@@ -21,6 +22,7 @@
             justify-content: center;
             width: 100vw;
             margin-top: 100px;
+            
         }
 
         .card{
@@ -28,7 +30,7 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.436);
-            min-width: 100px;
+            
            
             
         }
